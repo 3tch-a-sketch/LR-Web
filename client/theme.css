@@ -1,4 +1,17 @@
-.futura{
+futura{
   font-family: futura;
-  src:url(./futura/Futura Book font.ttf);
+  src:url("./futura/Futura light bt.ttf");
+}
+
+h1{
+  color: black;
+  font-family: futura;
+  font-style: normal;
+  font-size: 50px
+}
+
+p{
+  color: black;
+  font-family: monospace;
+  font-size: 100px
 }
