@@ -4,14 +4,18 @@
 }
 
 h1 {
-  color: black;
+  color: white;
   font-family: futura;
   font-style: normal;
   font-size: 50px
 }
 
 p {
-  color: black;
-  font-family: monospace;
-  font-size: 100px
+  color: white;
+  font-family: futura;
+  font-size: 35px
+}
+
+body{
+  background-color: #292828;
 }
