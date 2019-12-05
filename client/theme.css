@@ -16,14 +16,9 @@ p {
   font-size: 35px
 }
 
-html {
-  width: 100%
-}
-
 body{
   background-color: #292828;
   font-family: futura;
-  width: 150%
 }
 
 .floating-menu {
