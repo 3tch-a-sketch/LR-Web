@@ -41,7 +41,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   height: 50px;
-  border-top: 
+  vertical-align: middle;
 }
 
 a:hover, a:active {
