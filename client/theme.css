@@ -48,16 +48,24 @@ a:link, a:visited {
 
 .button {
   height: 80%;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  float: none;
+  margin-top: 0;
+  width:20%;
   background-color: #7b828f;
+  /*
+  display: inline-block;
   width: 20%;
   min-width: 160px;
   text-align: center;
   vertical-align: middle;
-  position: relative;
+  position: relative;*/
 }
 
 .button-text {
+  /*
   border: 2px solid black;
   font-size: 2.5vh;
   /*
