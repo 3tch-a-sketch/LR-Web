@@ -40,6 +40,8 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  height: 50px;
+  border-top: 
 }
 
 a:hover, a:active {
