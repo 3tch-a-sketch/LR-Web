@@ -23,9 +23,11 @@ body{
 .floating-menu {
   font-family: futura;
   background: #2574f5;
-  padding: 20px;
+  line-height: 20px;
+  padding:20px;
   width: 100%;
   height: 100px;
   top: 0px;
   z-index: 100;
   position: fixed;
+  text-align: left;
