@@ -19,3 +19,11 @@ p {
 body{
   background-color: #292828;
 }
+
+.floating-menu {
+  font-family: futura;
+  background: yellowgreen;
+  padding: 5px;;
+  width: 130px;
+  z-index: 100;
+  position: fixed;
