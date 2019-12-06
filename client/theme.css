@@ -18,33 +18,62 @@ p {
 
 body{
   background-color: #292828;
+  font-family: futura;
 }
 
 .floating-menu {
-  font-family: futura;
-  background: #2574f5;
+  background-color: #2574f5;
   line-height: 20px;
   padding:20px;
   width: 100%;
-  height: 70px;
+  height: 5%;
   top: 0px;
-  z-index: 100;
   position: fixed;
   text-align: left;
 }
 
 a:link, a:visited {
-  background-color: #7b828f;
   color: white;
+  text-decoration: none;
+}
+
+/*a, a {
+  background-color: #55688a;
+}*/
+
+.button {
+  height: 80%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  float: none;
+  margin-top: 0;
+  width: 10%;
+  background-color: #7b828f;
+}
+
+.button:hover, .button:active {
+  background-color: #55688a;
+}
+
+.buttonw3 {
+  background-color: #7b828f;
+  border: none;
+  color: white;
+<<<<<<< HEAD
   padding: 350px, 200px;
   border-top: 50px;
+=======
+  padding: 15px 32px;
+>>>>>>> 9d797e97241c116c9829aeddbdfb2daf6eaf496f
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  height: 50px;
-  vertical-align: middle;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
-a:hover, a:active {
+.buttonw3:hover, buttonw3:active{
   background-color: #55688a;
 }
