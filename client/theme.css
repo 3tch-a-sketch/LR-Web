@@ -37,6 +37,7 @@ a:link, a:visited {
   background-color: #7b828f;
   color: white;
   padding: 350px, 200px;
+  border-top: 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
