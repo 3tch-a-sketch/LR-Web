@@ -2,7 +2,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="theme.css">
 
-  <meta http-equiv="refresh" content="10"> <! DEV only >
+  <meta http-equiv="refresh" content="60"> <! DEV only >
 
   <title>LR-Web Client: Email</title>
 </head>
@@ -15,6 +15,17 @@
   <br><br><br><br><br><br>
   <p>
 This is the email send page.
+  <form action="./email_send.php" id="1">
+    <p>Recipient:<br>
+    <input type="text" name="recipient" class = "form"><br><br>
+    Subject:<br>
+    <input type ="text" name="subject" class = "form"><br><br>
+    Body:<br>
+    <!input type="text" name="body" class = "form_body">
+    <textarea name="body" class="form" cols="100%" form="1"></textarea>
+    <br><br>
+    <input type="submit" value="Submit" class = "form"></p>
+  </form>
   </p>
 
 </body>

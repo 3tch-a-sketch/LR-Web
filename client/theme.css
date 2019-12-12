@@ -69,8 +69,36 @@ a:link, a:visited {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  font-family: "futura",Arial;
 }
 
 .buttonw3:hover, buttonw3:active{
   background-color: #55688a;
+}
+
+.form{
+  color: white;
+  background-color: black;
+  font-family: "futura",Arial;
+  font-size: 35px
+  width: 100%;
+}
+textarea{
+  width: 100%;
+  height: 200px;
+}
+
+/*
+.form_body {
+  color: white;
+  background-color: black;
+  font-family: "futura",Arial;
+  font-size: 35px
+}
+*/
+input {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "futura",Arial;
 }
