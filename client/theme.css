@@ -24,9 +24,8 @@ body{
 .floating-menu {
   background-color: #2574f5;
   line-height: 20px;
-  padding:20px;
+  padding:50px, 50px;
   width: 100%;
-  height: 5%;
   top: 0px;
   position: fixed;
   text-align: left;
@@ -62,11 +61,11 @@ a:link, a:visited {
   color: white;
   padding: 350px, 200px;
   border-top: 50px;
-  padding: 15px 32px;
+  padding: 15px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 35px;
   margin: 4px 2px;
   cursor: pointer;
   font-family: "futura",Arial;
@@ -86,6 +85,8 @@ a:link, a:visited {
 textarea{
   width: 100%;
   height: 200px;
+  font-family: "futura",Arial;
+  font-size: 35px;
 }
 
 /*
@@ -101,4 +102,5 @@ input {
   padding-bottom: 10px;
   padding-top: 10px;
   font-family: "futura",Arial;
+  font-size: 35px;
 }
