@@ -41,6 +41,7 @@ if debugSw == True: # DEBUG: Prints args
     print(body)
     recipient = "sametchells@icloud.com"
 
+
 email_text = """\
 To: %s
 Subject: %s
