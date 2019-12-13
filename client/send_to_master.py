@@ -39,7 +39,7 @@ if debugSw == True: # DEBUG: Prints args
     print(subject)
     print(bodyId)
     print(body)
-    recipient = "sametchells@icloud.com"
+    recipient = "15samueletchells@catmosecollege.com"
 
 
 email_text = """\
