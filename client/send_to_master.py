@@ -1,7 +1,7 @@
 import sys
 import smtplib
 
-debugSw = False
+debugSw = True
 helpembed = '''
 HELP PAGE:
 --help          Displays the help page you see here.
@@ -40,6 +40,8 @@ if debugSw == True: # DEBUG: Prints args
     print(bodyId)
     print(body)
     recipient = "15samueletchells@catmosecollege.com"
+    body = "test email."
+    subject = "TEST"
 
 
 email_text = """\
