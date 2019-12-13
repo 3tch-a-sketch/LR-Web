@@ -69,6 +69,7 @@ a:link, a:visited {
   margin: 4px 2px;
   cursor: pointer;
   font-family: "futura",Arial;
+  border-radius: 10px;
 }
 
 .buttonw3:hover, buttonw3:active{
