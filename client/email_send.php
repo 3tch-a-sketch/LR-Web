@@ -25,8 +25,8 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
     <?php
         $field = $_GET;
         echo("OUTPUTTING");
-        //echo("<br>".$field." - ".$value);
-        echo("<br>"$_GET['recipient']);
+        echo("<br>".$field." - ".$value);
+        echo($field[1]);
      ?>
     Complete!
   </p>
