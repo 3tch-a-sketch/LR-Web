@@ -22,13 +22,19 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
   </nav>
   <br><br><br><br>
   <p>
+    `<Output>`
     <?php
-        $field = $_GET;
-        echo("OUTPUTTING");
-        echo("<br>".$field." - ".$value);
-        echo($field[1]);
+        $email = $_GET['recipient'];
+        $subject = $_GET['subject'];
+        $body = $_GET['body'];
+        $clientid = 0; // TODO: get each slave unit to use an induvidual client id
+        echo("<br />EMAIL: ".$email);
+        echo("<br />SUBJECT: ".$subject);
+        echo("<br />BODY: ".$body);
+        echo("<br />SENDER: ".$clientid);
      ?>
-    Complete!
+    <br />
+    `</output>`
   </p>
 
 </body>
