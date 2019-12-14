@@ -22,19 +22,23 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
   </nav>
   <br><br><br><br>
   <p>
-    `<Output>`
+    Email sent!
+  </p>
+  <p>
+    &ltoutput&gt
     <?php
         $email = $_GET['recipient'];
         $subject = $_GET['subject'];
         $body = $_GET['body'];
-        $clientid = 0; // TODO: get each slave unit to use an induvidual client id
+        $password = $_GET['password']; // TODO: get each slave unit to use an induvidual client id
         echo("<br />EMAIL: ".$email);
         echo("<br />SUBJECT: ".$subject);
         echo("<br />BODY: ".$body);
-        echo("<br />SENDER: ".$clientid);
+        echo("<br />SERCER PASSWORD: ".$password);
+        // TODO: send to LORA
      ?>
     <br />
-    `</output>`
+    &lt/output&gt
   </p>
 
 </body>

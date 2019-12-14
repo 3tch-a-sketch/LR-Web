@@ -16,13 +16,21 @@
   <p>
 This is the email send page.
   <form action="./email_send.php" id="1">
-    <p>Recipient:<br>
+    <p>Recipient: <span class="explanation">Who you want to send the email to</span>
+    <br>
     <input type="text" name="recipient" class = "form"><br><br>
-    Subject:<br>
+    Subject:
+    <br>
     <input type ="text" name="subject" class = "form"><br><br>
-    Body:<br>
+    Body:
+    <br>
     <textarea name="body" class="form" cols="100%" form="1"></textarea>
-    <br><br>
+    <br>
+    <div class="form-header"><b>Password:</b></div><div class="explanation">You will need to take note of this in order to recieve any replies to this email</div>
+    <br>
+    <input type="text" name="password" class="form">
+    <br />
+    <br />
     <input type="submit" value="Submit" class = "form"></p>
   </form>
   </p>
