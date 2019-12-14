@@ -20,7 +20,7 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
     <a href="./send.html" class="buttonw3">Send an e-mail</a>
     <a href="./help.html" class="buttonw3">HELP!</a>
   </nav>
-  <br><br><br><br><br><br>
+  <br><br><br><br>
   <p>
     <?php
         $field = $_GET;
