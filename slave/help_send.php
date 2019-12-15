@@ -11,15 +11,14 @@
     <a href="./index.html" class="buttonw3">LR-Web User Page</a>
     <a href="./send.html" class="buttonw3">Send an e-mail</a>
     <a href="./help.html" class="buttonw3">HELP!</a>
-    <a href="./inbox.html" class="buttonw3">Inbox</a>
   </nav>
   <br><br><br><br>
 
   <p>
-This is the help page, coming soon sorry!
-    <form action="./help_send.php" id="2" >
-      <input type=text>
-    </form>
+    <?php echo "Complete!"
+
+
+    ?>
   </p>
 
 </body>

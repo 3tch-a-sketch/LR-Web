@@ -11,6 +11,7 @@
     <a href="./index.html" class="buttonw3">LR-Web User Page</a>
     <a href="./send.html" class="buttonw3">Send an e-mail</a>
     <a href="./help.html" class="buttonw3">HELP!</a>
+    <a href="./inbox.html" class="buttonw3">Inbox</a>
   </nav>
   <br><br><br><br>
   <p>
@@ -18,17 +19,17 @@ This is the email send page.
   <form action="./email_send.php" id="1">
     <p>Recipient:
     <br>
-    <input type="text" name="recipient" class = "form"><br><br>
+    <input type="text" name="recipient" class = "form" required><br><br>
     Subject:
     <br>
-    <input type ="text" name="subject" class = "form"><br><br>
+    <input type ="text" name="subject" class = "form" required><br><br>
     Body:
     <br>
-    <textarea name="body" class="form" cols="100%" form="1"></textarea>
+    <textarea name="body" class="form" cols="100%" form="1" required></textarea>
     <br>
     <div class="form-header"><b>Password:</b></div><div class="explanation">You will need to take note of this in order to recieve any replies to this email</div>
     <br>
-    <input type="text" name="password" class="form">
+    <input type="text" name="password" class="form" required>
     <br />
     <br />
     <input type="submit" value="Submit" class = "form"></p>
