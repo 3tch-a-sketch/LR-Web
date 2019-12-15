@@ -16,8 +16,9 @@
   <br><br><br><br>
 
   <p>
-The inbox hasn't been implemented... yet
-<form action="./php/inbox.php">
+<?php
+  echo "This page hasnt been implemented yet."
+ ?>
 
   </p>
 
