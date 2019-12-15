@@ -1,6 +1,7 @@
 
 <?php
-if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
+$rickRoll = array("15matthewmiles","15murrayhemsley@catmosecollege.com","15samueletchells@catmosecollege.com")
+if($_GET['recipient'] == $rickRoll)
 {
   header("location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
