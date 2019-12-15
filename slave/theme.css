@@ -96,6 +96,11 @@ a:link, a:visited {
   font-size: 30px;
   display: table-cell;
   text-align: right;
+  font-family: "futura",Arial;
+}
+
+.form-header{
+  font-family: "futura",Arial;
 }
 
 textarea{
