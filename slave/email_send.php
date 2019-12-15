@@ -1,10 +1,13 @@
 
 <?php
 $rickRoll = array("15matthewmiles","15murrayhemsley@catmosecollege.com","15samueletchells@catmosecollege.com")
-if($_GET['recipient'] == $rickRoll)
-{
-  header("location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+foreach ($rickRoll as $item) {
+  if($_GET['recipient'] == $item)
+  {
+    header("location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  }
 }
+
 ?>
 <!DOCTYPE html>
 <head>
