@@ -34,7 +34,7 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
         echo("<br />EMAIL: ".$email);
         echo("<br />SUBJECT: ".$subject);
         echo("<br />BODY: ".$body);
-        echo("<br />SERCER PASSWORD: ".$password);
+        echo("<br />SERCER PASSllWORD: ".$password);
         // TODO: send to LORA
      ?>
     <br />
