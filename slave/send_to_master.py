@@ -16,7 +16,7 @@ mail_user = 'lora.w3b@gmail.com'
 with open("password.ini", "r") as f:
   password = f.read()
 if not password:
-    throw("Password not found, make a password.ini file in this directory.")
+    print("Password not found, make a password.ini file in this directory.")
 
 for i in sys.argv:
     if i == '--help' or i == '-h':
