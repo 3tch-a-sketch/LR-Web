@@ -36,7 +36,7 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
         echo("<br />SUBJECT: ".$subject);
         echo("<br />BODY: ".$body);
         echo("<br />SERCER PASSWORD: ".$password);
-        // TODO: send to LORA
+        // TODO: send to Python
      ?>
     <br />
     &lt/output&gt
