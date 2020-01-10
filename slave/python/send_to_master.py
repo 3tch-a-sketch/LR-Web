@@ -1,7 +1,8 @@
+#!/usr/bin/env python
 import sys
 import smtplib
 
-debugSw = True
+debugSw = False
 helpembed = '''
 HELP PAGE:
 --help          Displays the help page you see here.

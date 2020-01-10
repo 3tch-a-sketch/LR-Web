@@ -35,8 +35,13 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
         echo("<br />EMAIL: ".$email);
         echo("<br />SUBJECT: ".$subject);
         echo("<br />BODY: ".$body);
-        echo("<br />SERCER PASSWORD: ".$password);
+        echo("<br />SECRET PASSWORD: ".$password);
         // TODO: send to Python
+        $command = escapeshellcmd('python3 ./python/send_to_master.py -r "'.$email.'" -s "'.$subject.'" -b"'.$body.'"');
+        $output = shell_exec($command);
+        shell_exec($command);
+        echo($output);
+
      ?>
     <br />
     &lt/output&gt
