@@ -10,47 +10,37 @@ HELP PAGE:
 -s              Specifies the desired subject of the communication.
 -b              Specifies the body of the communication.
 '''
-bodyId = 0
-subjectId = 0
-recipientId = 0
+
 mail_user = 'lora.w3b@gmail.com'
+
 with open("password.ini", "r") as f:
   password = f.read()
 if not password:
-    print("Password not found, make a password.ini file in this directory.")
+    print("Password not found, make a password.ini file in this directory")
 
-for i in sys.argv:
-    if i == '--help' or i == '-h':
-        print(helpembed)
-    elif i == '-b':
-        bodyId = sys.argv.index(i)+1
-    elif i == '-s':
-        subjectId = sys.argv.index(i)+1
-    elif i == '-r':
-        recipientId = sys.argv.index(i)+1
+try:
+    for i in range(len(sys.argv)):
+        currentArg = sys.argv[i]
+        if currentArg == '--help' or currentArg == '-h':
+            print(helpembed)
+        elif currentArg == '-b':
+            body = sys.argv[i+1]
+        elif currentArg == '-s':
+            subject = sys.argv[i+1]
+        elif currentArg == '-r':
+            recipient = sys.argv[i+1]
+except IndexError:
+    print('arg provided but contents not found')
 
-body = sys.argv[bodyId]
-subject = sys.argv[subjectId]
-recipient = sys.argv[recipientId]
-
-if debugSw == True: # DEBUG: Prints args
-    print(recipientId)
-    print(recipient)
-    print(subjectId)
-    print(subject)
-    print(bodyId)
-    print(body)
+if debugSw == True: # DEBUG: Prints args and changes to test email format
+    print("recipient:", recipient)
+    print("body:", body)
+    print("subject:", subject)
     recipient = "15samueletchells@catmosecollege.com"
     body = "test email."
     subject = "TEST"
 
-
-email_text = """\
-To: %s
-Subject: %s
-
-%s
-""" % (recipient,subject, body)
+email_text = "To: %s\nSubject: %s\n\n%s" % (recipient, subject, body)
 
 try:
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
