@@ -47,5 +47,6 @@ try:
     server.ehlo()
     server.login(mail_user, password)
     server.sendmail(mail_user, recipient, email_text)
+    print("Emails send complete.")
 except:
     print('Something went wrong...')

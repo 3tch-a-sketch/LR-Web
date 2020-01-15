@@ -39,7 +39,6 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
         // TODO: send to Python
         $command = escapeshellcmd('python3 ./python/send_to_master.py -r "'.$email.'" -s "'.$subject.'" -b "'.$body.'"');
         $output = shell_exec($command);
-        shell_exec($command);
         echo($output);
 
      ?>
