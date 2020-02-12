@@ -8,7 +8,7 @@ if($_GET['recipient'] == "15matthewmiles@catmosecollege.com")
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" type="text/css" href="theme.css">
-
+  <link rel="shortcut icon" type="image/jpg" href="/assets/icon.jpg"
   <!meta http-equiv="refresh" content="60"> <! DEV only >
 
   <title>LR-Web Client: Email</title>
